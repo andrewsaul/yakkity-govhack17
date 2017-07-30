@@ -8,7 +8,7 @@ Meet Kylie. Kylie is the friendly front door to government data, delivering a wi
 
 ## Services Used
 
-We have relied on services provided by Google throughout this project. We have used API.AI to provide responses using the Google Assistant. This is deployed via "Actions on Google". Have deployed the Google Assistant on the Google Home device, Facebook, Twitter, Slack, and on the web. Our webhook is hosted on Google Cloud Storage. Our database is on Cloud SQL. Our Kylie server is hosted on a VM instance running on the Google Compute Engine. It's running Debian 8 "Jessie." The Cloud Storage, SQL, and Compute Engine are all available via the Google Cloud Platform. 
+We have relied on services provided by Google throughout this project. We have used API.AI to provide responses using the Google Assistant. This is deployed via *Actions on Google*. We have deployed our Google Assistant bot on the Google Home device, Facebook, Twitter, Slack, and on the web. Our webhook is hosted on Google Cloud Storage. Our database is on Cloud SQL. Our Kylie server is hosted on a VM instance running on the Google Compute Engine. It's running Debian 8 "Jessie." The Cloud Storage, SQL, and Compute Engine are all available via the Google Cloud Platform, and API.AI and *Actions on Google* can be linked to the Cloud platform. 
 
 ## Code
 
