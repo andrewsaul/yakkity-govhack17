@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "9f609568-8a90-45ba-b410-3ee7520de59d",
+      "data": [
+        {
+          "text": "Badminton"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "849516e6-62b6-42e1-a289-04e831e66176",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Badminton",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Badminton is on between 9:30am to 12:30pm, 2pm to 5:30pm and 7pm and 10:30pm at the Carrara Sports and Leisure Centre. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

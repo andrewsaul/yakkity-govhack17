@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "ee7d7f6f-91ba-4705-813f-acbea50ad263",
+      "data": [
+        {
+          "text": "Hockey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c5a91a53-c263-4066-8d59-1ec4c7506fd2",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Hockey",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hockey is on from between 9:30am to 1pm, 2:30pm to 6pm and 7:30pm to 11pm, in the Gold Coast Hockey Centre. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

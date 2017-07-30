@@ -1,0 +1,44 @@
+{
+  "userSays": [
+    {
+      "id": "b1161951-64b0-4d40-a45f-f3df9620cab9",
+      "data": [
+        {
+          "text": "Lawn Bowls",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4bb3ec1a-4ae3-48db-b5d0-77ec4d0cc620",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Lawn Bowls",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lawn Bowls is on from between 9am to 2:15pm at the Broadbeach Bowls Club and from 4pm to 9:15pm at the Broadbeach Bowls Club. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

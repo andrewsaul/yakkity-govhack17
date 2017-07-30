@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "3e7a7e11-09a2-4537-8a3c-785a906dc7db",
+      "data": [
+        {
+          "text": "Triathlon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bed01f9f-8ec8-4e9c-a963-c395e52f57d0",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Triathlon",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The Triathlon finals are on from 9:30am to 2pm at the Southport Broadwater Parklands. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

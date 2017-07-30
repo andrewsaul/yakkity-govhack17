@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "14da39fd-42ab-47e5-a321-5c2fc854af08",
+      "data": [
+        {
+          "text": "Tell me about you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d09c002d-de0d-4ab4-9fc1-7feb407e0248",
+      "data": [
+        {
+          "text": "what are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2c55dad-92ed-472b-ad21-e4c9178f4ea5",
+      "data": [
+        {
+          "text": "I\u0027m lost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5969fb5-d5f1-48b7-a4e1-fa15c293836d",
+      "data": [
+        {
+          "text": "govhack"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6d11d5f-1fcf-4ace-860d-463febf05644",
+      "data": [
+        {
+          "text": "what can you do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79f423ae-e206-415c-b9f3-7dd8ef8004f3",
+      "data": [
+        {
+          "text": "what data do you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c6123d9-f3e7-420c-8b73-f5dd57da38d6",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2de3b943-85bf-4f1b-8803-0651af246eda",
+  "name": "Asking for help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can provide information about events, places and the commonwealth games.  I am still a prototype, so my capacity is limited."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

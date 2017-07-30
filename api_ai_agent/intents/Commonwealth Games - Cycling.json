@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "4cae8e74-91a5-432e-85c9-303b83193165",
+      "data": [
+        {
+          "text": "Cycling"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "39a8bd1b-ee38-47da-acdd-db9300405268",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Cycling",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Cycling is on at 2:30pm to 5pm at the Anna Meares Velodrome, and from 7pm to 10pm at the Anna Meares Velodrome. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

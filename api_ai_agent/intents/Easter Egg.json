@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "ef613914-1334-4394-9983-08536278cea3",
+      "data": [
+        {
+          "text": "Tell me a fun fact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8114a597-89fd-465f-a6c0-bc66f8a00920",
+      "data": [
+        {
+          "text": "Tony",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Abbott",
+          "alias": "last-name",
+          "meta": "@sys.last-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "76e246f7-ec8d-4ca8-a95b-758b9127576a",
+  "name": "Easter Egg",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Fun Fact: Ex Prime-Minister Tony Abbott once famously ate a whole onion raw."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

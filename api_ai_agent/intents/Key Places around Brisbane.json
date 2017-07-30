@@ -1,0 +1,171 @@
+{
+  "userSays": [
+    {
+      "id": "0eeca6bf-df3b-4ec0-a101-eb546799054f",
+      "data": [
+        {
+          "text": "Places"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "881da128-c92c-4345-bfc8-401c9db6dce5",
+      "data": [
+        {
+          "text": "I\u0027m new to "
+        },
+        {
+          "text": "Brisbane",
+          "alias": "ValidLocations",
+          "meta": "@ValidLocations",
+          "userDefined": true
+        },
+        {
+          "text": ", where should I check out?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b00e880-ebde-4ac3-8d4b-266a4773947b",
+      "data": [
+        {
+          "text": "I\u0027m interested in landmarks around "
+        },
+        {
+          "text": "Brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        },
+        {
+          "text": ".  What can you tell me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3061c7c8-9ccf-420a-a3fc-29077e347bd0",
+      "data": [
+        {
+          "text": "what are some landmarks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e01d171-9ea3-413f-bdf6-6b3c4176053f",
+      "data": [
+        {
+          "text": "Tell me about some historical locations"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71a3c1a5-9a8f-402a-9dfe-97e2f7777aac",
+      "data": [
+        {
+          "text": "What are some Heritage sites"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "acaf032e-58e6-4cce-b8e7-0940e7bd0ead",
+      "data": [
+        {
+          "text": "what are some famous places in "
+        },
+        {
+          "text": "Brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb9abda6-d1bd-41d8-a17e-aa7a131f8b15",
+      "data": [
+        {
+          "text": "Tell me about "
+        },
+        {
+          "text": "brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "91588221-4155-4f82-8699-8d2c96beb8a8",
+  "name": "Key Places around Brisbane",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "KeyPlacesaroundBrisbane-followup",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        },
+        {
+          "dataType": "@ValidLocations",
+          "name": "ValidLocations",
+          "value": "$ValidLocations",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The Brisbane Botanic Gardens at Mount Coot-tha are Queensland\u0027s premier subtropical botanic gardens. These 52 hectare gardens are situated seven kilometres from the city centre, and offer a variety of environments and natural wildlife. The Gardens also offer a picturesque venue for a wedding.",
+            "The mall offers an unrivalled mix of local, national and international labels and flagship stores. Must-visits include the sparkling high-end Queens Plaza, Wintergarden with its diverse range of retailers, the magnificent and historically significant Brisbane Arcade and Tattersall\u0027s Arcade, the convenient MacArthur Central and the ever-popular The Myer Centre.",
+            "The History of Boggo Road Gaol Tour tells of the dramatic escapes of the 1980s, infamous inmates, lifers, riots, rooftop protests, the daily lives of prisoners and the duties of officers. Visit boggoroadgaol.com for more information.",
+            "The Queensland Maritime Museum was established in 1971 and is a fantastic experience for the whole family. It features the historic warship Diamantina, the 1925 steam tug Forceful, the heritage listed South Brisbane Dry Docky. Visit maritimemuseum.com.au for more information",
+            "Australia Zoo is a 100-acre zoo located in the Australian state of Queensland on the Sunshine Coast near Beerwah/Glass House Mountains.  Visit australiazoo.com.au for more information",
+            "Lone Pine Koala Sanctuary - Lone Pine Koala Sanctuary is an 18-hectare Koala Sanctuary in the Brisbane suburb of Fig Tree Pocket in Queensland, Australia. Founded in 1927, it is the world\u0027s oldest and largest koala sanctuary. For more information, check out koala.net",
+            "Story Bridge Adventure Climb - Panoramic group walks in safety harnesses across the top of Brisbane\u0027s iconic cantilever bridge. For more information, check out sbac.net.au",
+            "Check out Mount Coot-tha, which has the highest peak in Brisbane, Queensland, Australia at  287 metres above sea level.  Visit brisbanelookout.com for more information",
+            "Tourists from all over Australia and around the globe have learned that Burleigh Heads, Miami and Mermaid Beach are the perfect locations to base themselves at when holidaying on the Gold Coast.  For more information, visit burleightourism.com.au/",
+            "Noosa Heads offers a diverse and wonderful experience for everyone who visits. The region has an array of beachfront towns, riverside areas and hinterland communities with a relaxed and casual lifestyle, leaving you wanting more.  Visit visitnoosa.com.au for more information",
+            "Check out Brisbane\u0027s Chocolate Walking Tour.  This tour is a chance to discover some of Brisbane’s best chocolatiers and gain insight into their craft.  Visit foodi.com.au for more information."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "9490094f-a865-421d-8627-d57d47582515",
+      "data": [
+        {
+          "text": "Netball"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e11d8af2-94ee-4651-9e4c-6c72bc3f488e",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Netball",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Netball is on between 1pm to 4:30pm at the Gold Coast Convention and Exhibition Centre and from 6:30pm to 10pm at the Gold Coast Convention and Exhibition Centre. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

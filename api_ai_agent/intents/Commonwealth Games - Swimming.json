@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "656e7164-a51e-40a3-9a06-146ef1e40188",
+      "data": [
+        {
+          "text": "Backstroke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca3897a4-223a-43c3-be59-c3bb69e73086",
+      "data": [
+        {
+          "text": "Freestyle"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d2c80fe-56b9-4cc6-aa08-eb61f96fc6d3",
+      "data": [
+        {
+          "text": "Breaststroke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a353af26-f240-445f-b80c-2682209e2e0c",
+      "data": [
+        {
+          "text": "Swimming"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4c40fc34-b842-43eb-bb50-4173a1573a60",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Swimming",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Swimming prelimaries is on from 10:30am to 1:30pm at the Gold Coast Aquatic Centre, and the swimming finals are on from 7:30pm to 10:30pm at the Gold Coast Aquatic Centre. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

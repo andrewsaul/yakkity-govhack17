@@ -1,0 +1,221 @@
+{
+  "userSays": [
+    {
+      "id": "68c1f78b-b61a-4fbd-b7cb-2bbf42ef0d73",
+      "data": [
+        {
+          "text": "What\u0027s on in the "
+        },
+        {
+          "text": "sunshine Coast",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47f403d5-4af8-49ea-84cc-d501ee34de20",
+      "data": [
+        {
+          "text": "fitness",
+          "alias": "tag",
+          "meta": "@tag",
+          "userDefined": false
+        },
+        {
+          "text": " events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7eb96350-233b-46de-a2e1-9d20e2792bd6",
+      "data": [
+        {
+          "text": "Hey Kylie, What events are on "
+        },
+        {
+          "text": "this weekend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b5900116-2e27-4730-a1e7-ce01bbfa1ec2",
+      "data": [
+        {
+          "text": "Tell me about "
+        },
+        {
+          "text": "markets",
+          "alias": "tag",
+          "meta": "@tag",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ce827ca-e502-4c40-bfe3-793c4e3e06ee",
+      "data": [
+        {
+          "text": "Brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " Events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15b58c6d-2d74-498f-ab4e-eb28f8911534",
+      "data": [
+        {
+          "text": "I\u0027m looking to kill some time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecd50224-d068-4953-bc4d-91c1d359b0b3",
+      "data": [
+        {
+          "text": "what\u0027s going on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77375539-4a34-49e8-b81c-968d9b10e376",
+      "data": [
+        {
+          "text": "what\u0027s happening around "
+        },
+        {
+          "text": "Brisbane",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bc3e983-b3de-45ae-9a45-561913ef5df3",
+      "data": [
+        {
+          "text": "Events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f70f307-a389-4d1c-af3c-6154c86a9b74",
+      "data": [
+        {
+          "text": "what events are happening"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15eb8672-d2f4-4c1a-bd41-84df776e0faf",
+      "data": [
+        {
+          "text": "Tell me about events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0ccde569-1520-43ed-82d5-784d13a4c4e4",
+  "name": "Find Events",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "FindEvents-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "FindEvents-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            "Would you like to know about events in Brisbane, Gold Coast, or Sunshine Coast?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@tag",
+          "name": "tag",
+          "value": "$tag",
+          "prompts": [
+            "Are you interested in Markets, Exhibition, Fitness, or family friendly events?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

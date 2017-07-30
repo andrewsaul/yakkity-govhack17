@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "70be104d-c75d-48b3-93b6-b6609f520b10",
+      "data": [
+        {
+          "text": "Acrobatics"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "598a2e81-618b-4292-baa8-89c854c451b0",
+      "data": [
+        {
+          "text": "Gym"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df4f3f8d-5579-43ff-9755-9c77d52c5197",
+      "data": [
+        {
+          "text": "Gymnastics"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c00afe35-219d-401f-add0-8ad7a07b6033",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Gymnastics",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Gymnastics is on from 9am to 3pm in the Coomera Indoor Sports Centre, and from 5pm to 8:15pm in the Coomera Indoor Sports Centre. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

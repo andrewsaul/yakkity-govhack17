@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "efdc2e67-2718-487d-8c45-1fe8d1acf650",
+      "data": [
+        {
+          "text": "Weightlifting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13ea7a27-3e1d-48b1-a60a-ead717e19580",
+      "data": [
+        {
+          "text": "Weights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d18d82f3-ff86-46ac-a81e-7d2bc709f406",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Weightlifting",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Weightlifting finals run from 9:30am to 12pm, 2pm to 4:30pm,  at 6:30pm to 9pm at the Carrara Sports and Leisure Centre.  For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

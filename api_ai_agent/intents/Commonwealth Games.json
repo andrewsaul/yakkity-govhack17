@@ -1,0 +1,73 @@
+{
+  "userSays": [
+    {
+      "id": "d3d392d7-228a-4169-aa10-a699e8542bfd",
+      "data": [
+        {
+          "text": "What\u0027s going on at the Commonwealth Games"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0fd3931c-7f96-421b-adc9-71041d28c5ef",
+      "data": [
+        {
+          "text": "Tell me about the games"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eebfcb99-8f85-4dab-b486-ffadd83f22ca",
+      "data": [
+        {
+          "text": "Commonwealth"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63c8c967-657a-4aca-9a70-a8c7d2286569",
+      "data": [
+        {
+          "text": "Commonwealth Games"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "CommonwealthGames-followup",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I have information for the 5th of April for the Commonwealth games.  What game are you interested in?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

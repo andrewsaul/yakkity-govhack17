@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "e34102ca-af3b-4307-b604-397285fc66ab",
+      "data": [
+        {
+          "text": "Ping Pong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "231b3ca6-a13b-4e76-8a44-0ea51ed207d3",
+      "data": [
+        {
+          "text": "Table Tennis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7984cce4-5829-45c3-8824-43266efa9325",
+  "parentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "rootParentId": "90276fde-073f-4edd-8fe2-f2b9cdebfc1c",
+  "name": "Commonwealth Games - Table Tennis",
+  "auto": true,
+  "contexts": [
+    "CommonwealthGames-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CommonwealthGames.CommonwealthGames-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Table Tennis is on from 9:30am to 2:30pm at Oxenford Studios, and from 4pm to 9pm at Oxenford Studios. For more information, visit www.gc2018.com"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

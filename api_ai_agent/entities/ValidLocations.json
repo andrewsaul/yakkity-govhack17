@@ -1,0 +1,28 @@
+{
+  "id": "2656eda8-8b45-40cb-bc84-ffad1519c6ff",
+  "name": "ValidLocations",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Brisbane",
+      "synonyms": [
+        "Brisbane",
+        "South East Queensland"
+      ]
+    },
+    {
+      "value": "Gold Coast",
+      "synonyms": [
+        "Gold Coast"
+      ]
+    },
+    {
+      "value": "Sunshine Coast",
+      "synonyms": [
+        "Sunshine Coast"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,49 @@
+{
+  "id": "627aa37c-9e67-43b4-b23f-05b97cacb135",
+  "name": "tag",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "fitness",
+      "synonyms": [
+        "sports",
+        "fitness",
+        "zumba",
+        "dancing",
+        "boxing",
+        "yoga",
+        "pilates",
+        "Outdoors"
+      ]
+    },
+    {
+      "value": "markets",
+      "synonyms": [
+        "markets",
+        "shopping",
+        "farmers markets",
+        "produce",
+        "vegetables"
+      ]
+    },
+    {
+      "value": "exhibition",
+      "synonyms": [
+        "exhibition",
+        "shows",
+        "street festivals"
+      ]
+    },
+    {
+      "value": "Family",
+      "synonyms": [
+        "Family",
+        "Child friendly",
+        "kids",
+        "all ages"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
