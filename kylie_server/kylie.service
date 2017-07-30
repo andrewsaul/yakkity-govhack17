@@ -1,0 +1,14 @@
+[Unit]
+Description=Kylie
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /opt/kylie/kylie.py
+User=root
+WorkingDirectory=/opt/kylie
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
