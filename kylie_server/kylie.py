@@ -3,7 +3,7 @@
 Very simple HTTP server in python.
 
 Usage::
-    ./govhack_web_server.py [<port>]
+    ./kylie.py [<port>]
 
 Send a GET request::
     curl http://localhost
@@ -59,8 +59,6 @@ class Serve(BaseHTTPRequestHandler):
                   FROM govhack2017.Events 
                   WHERE City = %s and EventTag = %s""", (data["city"], data["tag"]))
         rows = cursor.fetchall()
-        
-        print(rows)
         
         cursor.close()
         cnxn.close() 
